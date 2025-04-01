@@ -1,0 +1,6 @@
+.movieCardCollection_emptyPlaceholder {
+  font-size: 20rem;
+  text-align: center;
+  padding-top: 20vh;
+  opacity: 0.2;
+}

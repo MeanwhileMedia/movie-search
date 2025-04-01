@@ -1,0 +1,27 @@
+.card {
+  cursor: pointer;
+}
+
+.card_content {
+  position: relative;
+  height: 30rem;
+  @media (max-width: 900) {
+    height: 40rem;
+  }
+  @media (max-width: 600) {
+    height: 50rem;
+  }
+}
+
+.card_content img {
+  object-fit: contain;
+}
+
+.card__unselected {
+  opacity: 0.6;
+}
+
+.card__selected {
+  opacity: 1;
+}
+
